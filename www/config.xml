@@ -3,7 +3,7 @@
 <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "cat.numancia.SistemaSolar"
-        versionCode = "23" 
+        versionCode = "24" 
         version     = "1.0.23" >
 	
 	<!-- versionCode is optional and Android only -->
