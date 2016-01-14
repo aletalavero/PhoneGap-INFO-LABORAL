@@ -6,20 +6,55 @@ window.addEventListener('load', function() {
 	
 	*/
     $JSView.declareView({ 
-        viewA: {
-            url: '/viewA',
-            template: 'views/viewA.html',
-            controller: 'viewA'
+        inici: {
+            url: '/inici',
+            template: 'views/inici.html',
+            controller: 'inici'
         },
-        viewB: {
-            url: '/viewB',
-            template: 'views/viewB.html',
-            controller: 'viewB'
+        sol: {
+            url: '/sol',
+            template: 'views/sol.html',
+            controller: 'sol'
         },
-        viewC: {
-            url: '/viewC',
-            template: 'views/viewC.html',
-            controller: 'viewC'
+        mercuri: {
+            url: '/mercuri',
+            template: 'views/mercuri.html',
+            controller: 'mercuri'
+        },
+        venus: {
+            url: '/venus',
+            template: 'views/venus.html',
+            controller: 'venus'
+        },
+        terra: {
+            url: '/terra',
+            template: 'views/terra.html',
+            controller: 'terra'
+        },
+        mart: {
+            url: '/mart',
+            template: 'views/mart.html',
+            controller: 'mart'
+        },
+        jupiter: {
+            url: '/jupiter',
+            template: 'views/jupiter.html',
+            controller: 'jupiter'
+        },
+        ura: {
+            url: '/ura',
+            template: 'views/ura.html',
+            controller: 'ura'
+        },
+        neptu: {
+            url: '/neptu',
+            template: 'views/neptu.html',
+            controller: 'neptu'
+        },
+        saturn: {
+            url: '/saturn',
+            template: 'views/saturn.html',
+            controller: 'saturn'
         }
     });
      
@@ -32,8 +67,11 @@ window.addEventListener('load', function() {
         }
     });
      
-    /*Asign view start*/
+    /*designar la pàgina inicial */
     $JSView
-        .initView('viewA');
+        .initView('inici');
  
 }, false);
+
+     
+ 
